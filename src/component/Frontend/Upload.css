@@ -1,0 +1,44 @@
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  padding-top: 35px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin: 40px;
+  width: 350px;
+  height: 250px;
+}
+.upload-container h3 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #333;
+}
+.pdf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.pdf input {
+  margin-right: -25px;
+  padding: 10px;
+  width: 90%;
+  font-size: 14px;
+}
+.upload-container p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+  text-align: center;
+  font-style: normal;
+}
+.file-upload {
+  font-size: 20px;
+  text-align: center;
+  font-style: normal;
+  margin-bottom: 15px;
+  align-items: flex-start;
+}
