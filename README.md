@@ -1,14 +1,46 @@
-# CV Editor
-created using React JS in Frontend and FastAPI app in Backend. The code is divided into two section: Frontend and Backend.
-The project has been published. So to run the program, a link is provided: "https://glaze0.github.io/CV-test/" which should be run inorder to check the output of the program.
-All the peices of code are included in the repository.
-A dummy resume is provided in Assets folder in the src folder, which can be given to the site 
 
 
-## Uses React + Vite
+#  CV Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-Currently, two official plugins are available:
+A sleek, customizable CV Editor built with **React + Vite** on the frontend and **FastAPI** on the backend. This tool allows users to edit, and export professional-looking resumes with ease.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- Live CV preview with real-time editing
+- Easy-to-use form-based interface
+- Template switching (light/dark modes, layout styles)
+- Save, load, and export CVs as PDFs
+- Backend support for storage and user session management
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React (via Vite for lightning-fast builds)
+- React Router for navigation
+- CSS for styling 
+
+### Backend
+- FastAPI
+- MongoDB for persistent storage
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Node.js
+- Python 3.9+
+- pip or poetry
+
+### Frontend Setup
+
+cd CV
+npm install
+npm run dev
+
+
+### Backend Setup
+
+
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
