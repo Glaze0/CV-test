@@ -32,7 +32,9 @@ A sleek, customizable CV Editor built with **React + Vite** on the frontend and 
 ### Frontend Setup
 
 - cd CV
+  
 - npm install
+
 - npm run dev
 
 
