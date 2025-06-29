@@ -1,5 +1,3 @@
-
-
 #  CV Editor
 
 A sleek, customizable CV Editor built with **React + Vite** on the frontend and **FastAPI** on the backend. This tool allows users to edit, and export professional-looking resumes with ease.
@@ -44,3 +42,4 @@ cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 
+There is a dummy resume pdf for you to use, in "./src/assets/Dummy_Resume.pdf"
