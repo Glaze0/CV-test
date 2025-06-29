@@ -45,3 +45,6 @@ A sleek, customizable CV Editor built with **React + Vite** on the frontend and 
 - uvicorn main:app --reload
 
 There is a dummy resume pdf for you to use, in "./src/assets/Dummy_Resume.pdf"
+
+
+Here it is the Result as a deployed static site :"https://glaze0.github.io/CV-test/"
